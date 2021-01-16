@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="flex justify-between items-center container mx-auto">
+        <img src="./images/logo.png" alt="logo" class="img-responsive">
+        <nav >
+            <ul class="flex menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Espectaculo</a></li>
+                <li><a href="" style="margin-right: 0;">Deportes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner text-white text-center ">
+        <article class="py-8 px-2  container mx-auto">
+            <h1>Blog Afrianska</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, iusto eum ipsam quia ea nemo quibusdam at tempore dolore perferendis adipisci alias, rerum illum non enim expedita? Numquam, nulla exercitationem.</p>
+        </article>
+    </section>
+    <main class="container mx-auto">
+        <div class="relative py-4 search">
+            <input type="text" placeholder="Search Article" class="w-full py-3 px-8 bg-gray-100 rounded-md border-transparent">
+            <i class="material-icons absolute top-7 left-2">search</i>
+        </div>
+        <section class="my-4 border-solid border-b-2 border-light-blue-400 ">
+            <h2 class="text-blue-800 mb-4 text-xl">POPULAR</h2>
+            <div class="md:grid post-grid md:mb-4 " >
+                <article class="post md:row-start-1 md:row-end-2 md:col-start-1 md:col-end-4 md:flex md:flex-row-reverse">
+                    <img src="./images/img-post-0.png" alt="img-post" class="img-responsive mb-2 md:w-3/5">
+                    <div class="md:w-1/2 md:flex md:justify-around md:flex-col md:mr-3">
+                        <h3 class="text-lg text-blue-600 mb-1 md:text-2xl">Feagiat sodales at nullam tellus</h3>
+                        <p class="leading-6 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        <footer class="flex justify-between mb-3">
+                            <div>
+                                <p class="font-bold text-blue-800 mb-1">Samantha Lethex</p>
+                                <p class="text-gray-400 text-sm ">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons text-blue-800 cursor-pointer">bookmark</i>
+                                <i class="material-icons text-blue-800 cursor-pointer">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+                <article class="mb-3 md:row-start-2 md:row-end-3 md:col-start-1 md:col-end-2" >
+                    <img src="./images/img-post-1.png" alt="img-post" class="img-responsive mb-2">
+                    <div>
+                        <h3 class="text-lg text-blue-600 mb-1">Feagiat sodales at nullam tellus</h3>
+                        <p class="leading-6 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        <footer class="flex justify-between mb-3">
+                            <div>
+                                <p class="font-bold text-blue-800 mb-1">Samantha Lethex</p>
+                                <p class="text-gray-400 text-sm ">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons text-blue-800 cursor-pointer">bookmark</i>
+                                <i class="material-icons text-blue-800 cursor-pointer">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+                <article class="mb-3 md:row-start-2 md:row-end-3 md:col-start-2 md:col-end-3">
+                    <img src="./images/img-post-2.png" alt="img-post" class="img-responsive mb-2">
+                    <div>
+                        <h3 class="text-lg text-blue-600 mb-1">Feagiat sodales at nullam tellus</h3>
+                        <p class="leading-6 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        <footer class="flex justify-between mb-3">
+                            <div>
+                                <p class="font-bold text-blue-800 mb-1">Samantha Lethex</p>
+                                <p class="text-gray-400 text-sm ">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons text-blue-800 cursor-pointer">bookmark</i>
+                                <i class="material-icons text-blue-800 cursor-pointer">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+                <article class="mb-3 md:row-start-2 md:row-end-3 md:col-start-3 md:col-end-4">
+                    <img src="./images/img-post-3.png" alt="img-post" class="img-responsive mb-2">
+                    <div>
+                        <h3 class="text-lg text-blue-600 mb-1">Feagiat sodales at nullam tellus</h3>
+                        <p class="leading-6 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        <footer class="flex justify-between mb-3">
+                            <div>
+                                <p class="font-bold text-blue-800 mb-1">Samantha Lethex</p>
+                                <p class="text-gray-400 text-sm ">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons text-blue-800 cursor-pointer">bookmark</i>
+                                <i class="material-icons text-blue-800 cursor-pointer">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+           <div>
+            <a href="#" class="text-blue-600 block text-right mb-2">SEE ALL POPULAR ARTICLE</a>
+           </div>
+        </section>
+        <section class="my-4">
+            <h2 class="text-blue-800 mb-4 text-xl">ALL ARTICLE</h2>
+            <div>
+                <article class="post mb-3 md:flex">
+                    <img src="./images/img-post-4.png" alt="img-post" class="img-responsive mb-2 md:mr-3">
+                    <div>
+                        <h3 class="text-lg text-blue-600 mb-1">Feagiat sodales at nullam tellus</h3>
+                        <p class="leading-6 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        <footer class="flex justify-between mb-3">
+                            <div>
+                                <p class="font-bold text-blue-800 mb-1">Samantha Lethex</p>
+                                <p class="text-gray-400 text-sm ">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons text-blue-800 cursor-pointer">bookmark</i>
+                                <i class="material-icons text-blue-800 cursor-pointer">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+                <article class="post mb-3 md:flex">
+                    <img src="./images/img-post-5.png" alt="img-post" class="img-responsive mb-2 md:mr-3">
+                    <div>
+                        <h3 class="text-lg text-blue-600 mb-1">Feagiat sodales at nullam tellus</h3>
+                        <p class="leading-6 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        <footer class="flex justify-between mb-3">
+                            <div>
+                                <p class="font-bold text-blue-800 mb-1">Samantha Lethex</p>
+                                <p class="text-gray-400 text-sm ">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons text-blue-800 cursor-pointer">bookmark</i>
+                                <i class="material-icons text-blue-800 cursor-pointer">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+                <article class="post mb-3 md:flex">
+                    <img src="./images/img-post-6.png" alt="img-post" class="img-responsive mb-2 md:mr-3">
+                    <div>
+                        <h3 class="text-lg text-blue-600 mb-1">Feagiat sodales at nullam tellus</h3>
+                        <p class="leading-6 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        <footer class="flex justify-between mb-3">
+                            <div>
+                                <p class="font-bold text-blue-800 mb-1">Samantha Lethex</p>
+                                <p class="text-gray-400 text-sm ">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons text-blue-800 cursor-pointer">bookmark</i>
+                                <i class="material-icons text-blue-800 cursor-pointer">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+                <article class="post mb-3 md:flex">
+                    <img src="./images/img-post-7.png" alt="img-post" class="img-responsive mb-2 md:mr-3">
+                    <div>
+                        <h3 class="text-lg text-blue-600 mb-1">Feagiat sodales at nullam tellus</h3>
+                        <p class="leading-6 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        <footer class="flex justify-between mb-3">
+                            <div>
+                                <p class="font-bold text-blue-800 mb-1">Samantha Lethex</p>
+                                <p class="text-gray-400 text-sm ">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons text-blue-800 cursor-pointer ">bookmark</i>
+                                <i class="material-icons text-blue-800 cursor-pointer">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+            <a href="#" class="text-blue-600 block text-right mb-2">New Post</a>
+        </section>
+    </main>
+    <footer class="footer text-white">
+       <div class="container mx-auto">
+        <header class="py-8 w-4/5 border-b border-solid border-white md:flex md:items-center md:justify-between">
+            <div class="md:mr-3">
+                 <h4 class="text-2xl mb-1 font-medium">Intersted to  <br> with our team?</h4>
+                 <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt unde delectus accusamus in quibusdam voluptates deserunt neque, corrupti aspernatur vero maxime accusantium architecto consequuntur quisquam aperiam facere, dolor esse quia!</p>
+            </div >
+             <a href="#" class=" text-white py-2 text-center w-full bg-blue-400 rounded-lg inline-block">Let´s Talk</a>
+         </header>
+        <section class="py-2 md:flex md:flex-wrap md:items-center lg:flex-nowrap">
+             <article class="mb-3 md:w-1/2">
+                 <img src="./images/logo_2.PNG" alt="logo_2" class="img-responsive mb-3">
+                 <ul>
+                     <li class="flex mb-2">
+                         <span class="font-semibold mr-1">A.</span>
+                         <p>Lorem ipsum sit amel, cosmetur <br> afopsjcing elit.</p>
+                     </li>
+                     <li class="flex mb-2">
+                         <span class="font-semibold mr-1">T.</span>
+                         <p>+62-812-7313-4321</p>
+                     </li>
+                     <li class="flex mb-2">
+                         <span class="font-semibold mr-1">E.</span>
+                         <p>hello.aferian@gmail.com</p>
+                     </li>
+                 </ul>
+             </article>
+             <article class="mb-3 md:w-1/2">
+                 <h5 class="text-lg mb-1">About US</h5>
+                 <ul class="">
+                     <li class="my-1"><a href="">About</a></li>
+                     <li class="my-1"><a href="">What We Do</a></li>
+                     <li class="my-1"><a href="">Project</a></li>
+                     <li class="my-1"><a href="">How it Work With Us</a></li>
+                 </ul>
+             </article>
+             <article class="mb-3 md:w-1/2">
+                 <h5 class="text-lg mb-1">Follow US</h5>
+                 <ul class="">
+                     <li class="my-1"><a href="">Instagram</a></li>
+                     <li class="my-1"><a href="">facebook</a></li>
+                     <li class="my-1"><a href="">Linkedin</a></li>
+                     <li class="my-1"><a href="">Youtube</a></li>
+                 </ul>
+             </article>
+        </section>
+        <p class=" pb-1 text-sm opacity-40">2019 Afrianska. All rigths reseved.</p>
+       </div>
+    </footer>
+</body>
+</html>
